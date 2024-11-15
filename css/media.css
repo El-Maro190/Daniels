@@ -1,0 +1,166 @@
+@media (min-width: 768px) {
+  /* General */
+
+  .container-fluid,
+  .container {
+    width: 750px;
+  }
+
+  /* Navbar */
+  .navbar .navbar-nav {
+    background-color: transparent;
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    font-size: 13px;
+    margin: 25px 15px 0;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+  .navbar-scroll .navbar-nav .nav-item .nav-link {
+    color: #1C1C1C;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link.active::after {
+    width: 100%;
+  }
+
+  /* Home */
+  .home .caption h1 {
+    font-size: 44px;
+  }
+
+  /* Typewriter */
+  @keyframes text1 {
+    0%,
+    33%,
+    67%,
+    100% {
+      width: 0;
+      display: none;
+    }
+
+    7%,
+    26% {
+      width: 296.638px;
+      display: inline-block;
+    }
+  }
+
+  @keyframes text2 {
+    0%,
+    33%,
+    67%,
+    100% {
+      width: 0;
+      display: none;
+    }
+
+    40%,
+    60% {
+      width: 235.725px;
+      display: inline-block;
+    }
+  }
+
+  @keyframes text3 {
+    0%,
+    33%,
+    67%,
+    100% {
+      width: 0;
+      display: none;
+    }
+
+    74%,
+    93% {
+      width: 210.338px;
+      display: inline-block;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  /* General */
+
+  .container-fluid,
+  .container {
+    width: 970px;
+  }
+
+  /* Navbar */
+
+  .navbar .navbar-nav .nav-item {
+    font-size: 14px;
+    margin: 25px 20px 0;
+  }
+}
+
+@media (min-width: 1170px) {
+  /* Home */
+  .home .caption h1 {
+    font-size: 60px;
+  }
+
+  /* Typewriter */
+  @keyframes text1 {
+    0%,
+    33%,
+    67%,
+    100% {
+      width: 0;
+      display: none;
+    }
+
+    7%,
+    26% {
+      width: 400.863px;
+      display: inline-block;
+    }
+  }
+
+  @keyframes text2 {
+    0%,
+    33%,
+    67%,
+    100% {
+      width: 0;
+      display: none;
+    }
+
+    40%,
+    60% {
+      width: 317.8px;
+      display: inline-block;
+    }
+  }
+
+  @keyframes text3 {
+    0%,
+    33%,
+    67%,
+    100% {
+      width: 0;
+      display: none;
+    }
+
+    74%,
+    93% {
+      width: 283.188px;
+      display: inline-block;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  /* General */
+
+  .container-fluid,
+  .container {
+    width: 1170px;
+  }
+}
